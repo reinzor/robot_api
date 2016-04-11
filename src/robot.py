@@ -23,7 +23,7 @@ class Robot(object):
     def connection_information(self):
         return {part.name: part.connection_information for part in self._parts}
 
-    def _setup_part(self, part_class, part_name, part_configuration={}):
+    def add_part(self, part_class, part_name, part_configuration={}):
         # Check if the part_class inherits from class
         if not issubclass(part_class, Part):
             raise Exception("Part %s (%s) does not inherit from Part" % (part_name, part_class))
