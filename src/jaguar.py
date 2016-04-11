@@ -1,5 +1,5 @@
-from robot import Robot
-from parts import Arm, Base
+from robot_api import Robot
+from robot_api.parts import Arm, Base
 
 
 class Jaguar(Robot):

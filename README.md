@@ -1,2 +1,2 @@
-# jaguar_api
-Python API for the jaguar platform
+# robot_api
+Python ROS Robot API
